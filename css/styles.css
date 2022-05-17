@@ -1,0 +1,42 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+/* 
+.filters {}
+
+.filters-item {}
+добавить цвет фона, текста и состояния ховер и фокус */
+
+.logo{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;  
+  letter-spacing: 0.03em;
+}
+
+.logo-accent{
+  color: #2196F3;
+}
+
+.main-heading{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF; 
+  background-color: thistle;
+}
+
