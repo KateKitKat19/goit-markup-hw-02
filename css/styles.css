@@ -1,4 +1,11 @@
 :root{
+  --bcg-color: #FFFFFF;
+  --bcg-color-secondary: #F5F4FA;
+  --dark-bcg-color: #2F303A;
+  --accent-color: #2196F3;
+  --main-text-color: #212121;
+  --text-color-secondary: #757575;
+  --black-accent-color: #000000;
 }
 
 body{
@@ -7,13 +14,95 @@ body{
   color: #000000;
 }
 
-a{
+/* a{
   text-decoration: none;
 }
 
 ul{
   list-style-type: none;
+} */
+
+
+/* HEADER */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
+
+
+.logo-accent {
+  color: var(--accent-color);
+}
+.nav-menu{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-menu, .address-info{
+  list-style-type: none;
+}
+.nav-item{
+  text-decoration: none;
+}
+
+.contacts:hover{
+color: var(--accent-color);
+}
+
+.header-main .contacts{
+  color: var(--text-color-secondary);
+  text-decoration: none;
+}
+
+/* MAIN PAGE */
+.hero{
+  background-color: var(--dark-bcg-color);
+}
+
+
+.main-heading{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF; 
+}
+.current{
+  color: var(--accent-color)
+}
+
+
+/* FOOTER */
+.footer-main{
+  background-color: var(--dark-bcg-color);
+}
+
+.footer-main .contacts {
+  color: var(--bcg-color);
+  opacity: 0.6;
+  text-decoration: none;
+  font-style: normal;
+}
+.address{
+  color: var(--bcg-color);
+  font-size: 14px;
+  font-style: normal;
+}
+
+.footer-main .logo-accent{
+  color: var(--bcg-color);
+}
+
+
+/* PORTFOLIO */
 
 .visually-hidden {
   position: absolute;
@@ -27,32 +116,15 @@ ul{
   clip-path: inset(50%);
   margin: -1px;
 }
-/* 
+
 .filters {}
 
-.filters-item {}
-добавить цвет фона, текста и состояния ховер и фокус */
-
-.logo{
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;  
-  letter-spacing: 0.03em;
+.button {
+  background-color: var(--bcg-color-secondary);
+  border: 0;
 }
 
-.logo-accent{
-  color: #2196F3;
+.button:hover, .button:focus{
+  background-color: var(--accent-color);
+  color: var(--bcg-color)
 }
-
-.main-heading{
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #FFFFFF; 
-  background-color: thistle;
-}
-
