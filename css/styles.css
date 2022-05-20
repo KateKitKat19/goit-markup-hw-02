@@ -15,14 +15,6 @@ body {
   color: #000000;
 }
 
-/* a{
-  text-decoration: none;
-}
-
-ul{
-  list-style-type: none;
-} */
-
 /* HEADER */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -51,11 +43,16 @@ ul{
 
 .nav-menu,
 .address-info,
-.benefits {
+.benefits,
+.work-list,
+.team-list,
+.filters,
+.works-catalog {
   list-style-type: none;
 }
 
-.nav-item {
+.nav-item,
+.works-link {
   text-decoration: none;
 }
 
@@ -129,6 +126,36 @@ ul{
   background-color: var(--btn-hover-color);
 }
 
+.section-heading {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--bcg-color-secondary);
+}
+.team-member {
+  background-color: var(--bcg-color);
+}
+.member-name {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.member-position {
+  color: var(--text-color-secondary);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* FOOTER */
 .footer-main {
   background-color: var(--dark-bcg-color);
@@ -139,12 +166,16 @@ ul{
   opacity: 0.6;
   text-decoration: none;
   font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address {
   color: var(--bcg-color);
   font-size: 14px;
   font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-main .logo {
@@ -157,10 +188,6 @@ ul{
 .phone:focus {
   color: var(--accent-color);
 }
-
-/* .footer-main .logo:visited{
-  color: var(--bcg-color);
-} */
 
 /* PORTFOLIO */
 
@@ -177,15 +204,32 @@ ul{
   margin: -1px;
 }
 
-/* .filters {} */
-
 .button {
+  color: var(--main-text-color);
   background-color: var(--bcg-color-secondary);
   border: 0;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
   color: var(--bcg-color);
+}
+.works-title{
+  color: var(--main-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.works-text{
+color: var(--text-color-secondary);
+font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
