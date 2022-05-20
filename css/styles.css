@@ -3,7 +3,8 @@
   --bcg-color-secondary: #f5f4fa;
   --dark-bcg-color: #2f303a;
   --accent-color: #2196f3;
-  --main-text-color: #212121;
+  --main-text-color: #212121;  
+  /* ПОМЕНЯТЬ ЦВЕТ В БОДИ НА 212121 */
   --text-color-secondary: #757575;
   --regular-text-color: #000000;
   --btn-hover-color: #188ce8;
@@ -196,7 +197,7 @@ body {
 
 /* PORTFOLIO */
 
-.button {
+.btn-filters {
   color: var(--main-text-color);
   background-color: var(--bcg-color-secondary);
   border: 0;
@@ -211,8 +212,8 @@ body {
   border-radius: 4px;
 }
 
-.button:hover,
-.button:focus {
+.btn-filters:hover,
+.btn-filters:focus {
   background-color: var(--accent-color);
   color: var(--bcg-color);
 }
