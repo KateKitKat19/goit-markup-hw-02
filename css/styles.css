@@ -193,6 +193,7 @@ body {
 .phone:hover,
 .phone:focus {
   color: var(--accent-color);
+  opacity: 1;
 }
 
 /* PORTFOLIO */
